@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    
+<!-- Bestemmer navnet på nettsiden i taben, tilatter at html skal få filer fra css og tilatter norsk bokstaver som å,æ,ø-->
+    <head>
+        <title>Teknologiforståelse | Arbeidsbok</title>
+        <link href="../../CSS/secondstyle.css" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8">
+    </head>
+
+    <!-- Body viser at her skal det ligge stoffet og main er hoved stoffet i dette tilfellet-->
+    <body style="margin: 0px;">
+        <main>
+           
+            <!-- Gir divet sitt egen navn-->
+            <div class="navbar">
+                <!-- lenker til forksjellige sider av siden-->
+                <a href="../../index.html">Home</a>
+                <a href="../Extra/Contact.html">Contact</a>
+                <a href="../Extra/About.html">About</a>
+                <!-- Gir divet sitt egen navn-->
+                <div class="dropdown">
+                    <!-- en hover knapp for dropdown-->
+                  <button class="dropbtn">Links </button>
+                  <div class="dropdown-content">
+                      <!-- lenker til forksjellige nettsider-->
+                    <a href="https://vlfk.itslearning.com/index.aspx?SessionExpired=0" target="_blank"> ItsLearning </a>
+                    <a href="https://amalieskram-vgs.inschool.visma.no/Login.jsp#/" target="_blank"> Visma </a>
+                    <a href="https://les.unibok.no/" target="_blank"> Unibok </a>
+                  </div>
+                </div> 
+              </div>
+
+              <!-- Bestemmer at det skal bli en div under navnet header og bestemmer navnet-->
+              <div class="header">
+                <h1> Teknologiforståelse </h1>
+            </div>
+
+            <!--Menu på siden-->
+            <div class="sidenav">
+              <a href="yrkesfaglig.html">Prosjekter</a>
+              <a href="#">link</a>
+              <a href="#">link</a>
+              <a href="#">link</a>
+            </div>
+
+            <div class="content">
+              <h2> Bilder om prossesen </h2>
+              <p>Blender animasjon prosjektet mitt</p>
+              <img src="../../Illustrasjoner/YrkesfagIL/render.v001.png" class="center">
+              <img src="../../Illustrasjoner/YrkesfagIL/finalCave_v001.png" class="center">
+              <img src="../../Illustrasjoner/YrkesfagIL/finalCave_v006.png" class="center">
+            </div>
+
+            <div class="content">
+                <h2> Animasjonen </h2>
+                <p>oppgaver</p>
+                <video controls>
+                    <source src="../../Videoer/YrkesfagVID/cinematic_v002.0001-0240.mp4" type="video/mp4"> 
+                </video>
+            </div>
+
+
+          </main>
+        </body>
+    </html>
